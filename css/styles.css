@@ -1,0 +1,183 @@
+/* Header */
+body{
+    background: rgb(255, 255, 255);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+header{
+    background: white;
+    text-align: center;
+}
+
+header .logo a{
+    background-image: url("/image/AT-logo.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    display: inline-block; 
+    height: 80px;
+    width: 50px;
+    position: relative;
+    top: -30px;
+
+    text-indent: -999999999px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: aliceblue;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+
+
+/* Banner */
+iframe{
+    margin-top: 4%;
+}
+
+section.backgroundindex{
+    background: rgb(79, 156, 214);
+    background-size: 100%;
+    background-position: center;
+    padding: 40px;
+    height: 700px;
+    text-align: center;
+    size: 100%;
+    background-repeat: no-repeat;
+
+    text-indent: 0px;
+}
+
+@media screen and (max-width: 600px){
+    section.backgroundindex{
+        height: 200px;
+    }
+}
+
+/* About */
+
+section.about{
+    background: white;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(79, 156, 214);
+    background-position: center;
+    margin: 0 5% 0 5%;
+    padding: 50px 20% 0 20%;
+    height: 400px;
+    text-align: center;
+    size: 100%;
+    font-family: avenir;
+    kerning: 7px;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 600px){
+    section.about{
+        height: 800px;
+    }
+}
+
+/* Block */
+
+.features {
+    background: white;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 5% 10% 5% 10%;
+}
+
+@media screen and (max-width: 600px){
+    .features{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .features{
+        flex-direction: column;
+    }
+}
+
+figure{
+    margin: auto;
+}
+
+.features figure img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    margin-bottom: 2%;
+}
+
+.features figure figcaption{
+    font-family: avenir;
+}
+
+@media screen and (max-width: 600px){
+    .features figure figcaption{
+        margin-bottom: 20%;
+    }
+}
+
+/* slogan */
+
+section.slogan{
+    font-size: 40px;
+    font-family: Arial-black, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    height: 200px;
+}
+
+section.skills{
+    font-size: 30px;
+    font-family: Arial-black, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    section.slogan{
+        font-size: 25px;
+        height: 150px; 
+        margin-top: 75px;
+    }
+}
+
+/* Footer */
+
+footer{
+    background: black;
+    padding: 10px 20px;
+    color: gray;
+    text-align: center;
+    font-size: 70%;
+
+}

@@ -1,0 +1,198 @@
+/* Header */
+body{
+    background: rgb(255, 255, 255);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+header{
+    background: white;
+    text-align: center;
+}
+
+header .logo a{
+    background-image: url("/image/AT-logo.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    display: inline-block; 
+    height: 80px;
+    width: 50px;
+    position: relative;
+    top: -30px;
+
+    text-indent: -999999999px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: aliceblue;
+}
+
+li{ 
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+
+/* Contact*/
+
+section{
+    margin-bottom: 0;
+}
+
+section.background{
+    background-image: url("/image/Contact_anna.png");
+    height: 350px;
+    margin: 0 5% 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    section.background{
+        height: 120px;
+    }
+}
+
+section.contacttext{
+    background-color: rgb(79, 156, 214);;
+    margin: 0 5% 0 5%;
+    height: 200px;
+    text-align: center;
+    padding-top: 5%;
+    font-family: avenir;
+    color: white;
+} 
+
+section.contacttext img{
+    height: 15px;
+
+}
+
+/* Contact Box */
+/*
+.textbox{
+    width: 100%;
+    height: 40px;
+}
+
+.textbox input{
+    background: none;
+    outline: none;
+    height: 20px;
+    width: 400px;
+}
+
+.contact_textbox input{
+    background: none;
+    outline: none;
+    height: 100px;
+    width: 400px;
+    text-align: none;
+    font-family: avenir;
+}
+
+button{
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-family: avenir;
+}
+*/
+
+
+/* Portfolio */
+
+.gallery img{
+    transition: 1s;
+}
+
+.gallery img:hover{
+    transform: scale(0.95);
+}
+
+.gallery{
+    margin: 0 5%;
+}
+
+section.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure{
+    margin: auto;
+}
+
+figure img{
+    width: 425px; /* no margin = 470 px*/
+    height: 430px;
+
+}
+
+div.icon img {
+    width: 100%;
+    height: 430px;
+    margin: 3px 0 3px 0;
+    object-fit: cover;
+}
+
+.Animation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Animation img{
+    width: 635px;
+}
+
+.Animation .Animation_left {
+    margin-right: 5px;
+}
+
+.Animation .Animation_right {
+    margin-left: 5px;
+}
+
+/* Footer */
+
+section.slogan{
+    font-size: 40px;
+    font-family: Arial-black, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    section.slogan{
+        font-size: 25px;
+        height: 150px; 
+        margin-top: 75px;
+    }
+}
+
+
+footer{
+    background: black;
+    padding: 10px 20px;
+    color: gray;
+    text-align: center;
+    font-size: 70%;
+
+}
